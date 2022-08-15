@@ -1,0 +1,97 @@
+body {
+    line-height: 2em;
+    font-family: "Poppins";
+    font-size: 1em;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.container {
+    margin: 1em auto;
+    padding: 0 3em;
+    max-width: 500px;
+    min-width: 180px;
+}
+
+.title {
+  margin-bottom: -0.4em;
+}
+
+.description {
+  margin-bottom: -0.6em;
+}
+
+fieldset {
+  border: none;
+  padding: 2em 0;
+}
+
+label {
+  display: block;
+  border: none;
+  padding: 0.5em 0;
+  color: grey;
+}
+
+input, textarea {
+  box-sizing: border-box;
+  margin: 0;
+  border: 0;
+  border-radius: 0.5rem;
+  padding: 0.5em;
+  height: 3em;
+  width: 100%;
+  background-color: #f7f8fa;
+  color: black;
+  font-family: inherit;  
+  font-size: 0.em;
+}
+
+label[id="dropdown-label"],
+label[id="checkbox-label"],
+label[id="taste-label"] {
+  margin: 0;
+  padding: 0 1em;  
+}
+
+.inline {  
+  margin: 0 0.5em 0 0;
+  vertical-align: middle; 
+  width: unset;
+}
+
+select{
+  margin-top: 0.4em;
+  border: 0;
+  color: grey;
+  font-family: inherit;
+  font-size: 1em;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 0.4em;
+  margin-bottom: 1em;
+  justify-content: center;
+}
+
+.centered-element {
+  margin-top: -1em;
+  display: flex;
+  justify-content: center;
+}
+
+textarea {  
+  margin-bottom: -1em;
+  height: 6em;
+}
+
+input[type="submit"] {
+  margin-top: -1em;
+  height: 4em;
+  background-color: #0d84da;
+  color: white;  
+}
